@@ -23,10 +23,10 @@ The dataset is organized into three main folders:
 - `validation/` → Used to validate the model during training  
 - `test/` → Used for final testing and predictions  
 
-  **Total Images:** 12,000+  
-- Training: ~10,000 images  
-- Validation: ~1,000 images  
-- Testing: ~1,000 images  
+  **Total Images:** 280+  
+- Training: ~ 200 images  
+- Validation: ~ 40 images  
+- Testing: ~ 40 images  
 Each category (cats/dogs) has around 50% distribution.
 
  
