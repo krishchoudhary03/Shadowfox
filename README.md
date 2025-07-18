@@ -58,8 +58,8 @@ Each category (cats/dogs) has around 50% distribution.
    - Loss Function: `categorical_crossentropy`
    - Optimizer: `Adam`
    - Metrics: `accuracy`
-   - **Epochs:** Usually trained for 10 epochs (depends on dataset size & hardware)
-   - **Training Time:** Varies — approx. **10–25 minutes** on mid-level PCs for 12k images
+   - **Epochs:** Usually trained for 10 epochs (depends on dataset size & hardware), I did it on 15 epochs
+   - **Training Time:** Varies — approx. **2-3 minutes** on mid-level PCs for 200 images
 
  
 
