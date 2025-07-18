@@ -89,7 +89,7 @@ Prediction Interface
 - Deploy as a web app using Flask/Streamlit
 Author
 
-Developed by **Krish Chaudhary**  
+Developed by **Krish Choudhary**  
 Under the **ShadowFox AIML Internship Program**  
 Connect on  www.linkedin.com/in/krish-choudhary-55b9a030b | #ShadowFoxIntern | #AIML | #CNNModel
 
