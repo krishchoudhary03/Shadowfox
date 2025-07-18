@@ -87,12 +87,9 @@ Prediction Interface
 - Add more categories (multi-class classification)
 - Improve accuracy by using transfer learning (e.g., MobileNet, ResNet)
 - Deploy as a web app using Flask/Streamlit
-
- 
-
-  Author
+Author
 
 Developed by **Krish Chaudhary**  
 Under the **ShadowFox AIML Internship Program**  
-Connect on [LinkedIn](www.linkedin.com/in/krish-choudhary-55b9a030b) | #ShadowFoxIntern | #AIML | #CNNModel
+Connect on  www.linkedin.com/in/krish-choudhary-55b9a030b | #ShadowFoxIntern | #AIML | #CNNModel
 
