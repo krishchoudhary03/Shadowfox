@@ -67,8 +67,8 @@ history = model.fit(
 
 # Step 7: Evaluate Model
 test_loss, test_acc = model.evaluate(test_data)#checking loss and accuracy at testing
-print(f"✅ Test Accuracy: {test_acc * 100:.2f}%")
+print(f" Test Accuracy: {test_acc * 100:.2f}%")
 
 # Step 8: Save Model
 model.save("my_tagging_model.h5")#saving model in file format 
-print("✅ Model saved as 'my_tagging_model.h5'")
+print(" Model saved as 'my_tagging_model.h5'")
