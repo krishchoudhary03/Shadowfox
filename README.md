@@ -1,4 +1,4 @@
-# Shadowfox
+# Shadowfox {task 1}
 CNN-Based Cats vs Dogs Classifier
 
 This is a beginner-level AI/ML project developed during the **ShadowFox Virtual Internship**.  
