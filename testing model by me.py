@@ -10,7 +10,7 @@ from io import BytesIO#handling path
 
 # Step 2: Load Trained Model
 model = load_model("my_tagging_model.h5")#loading trained model
-print("✅ Model Loaded Successfully!")
+print("Model Loaded Successfully!")
 
 # Step 3: Define Class Labels (based on training)
 class_labels = ['cats', 'dogs'] # model will answer either of these option 
