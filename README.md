@@ -93,3 +93,85 @@ Developed by **Krish Choudhary**
 Under the **ShadowFox AIML Internship Program**  
 Connect on  www.linkedin.com/in/krish-choudhary-55b9a030b | #ShadowFoxIntern | #AIML | #CNNModel
 
+
+
+
+
+
+
+
+#Shadowfox-Task-2
+loan-approval-prediction
+Project Title
+Loan Approval Prediction using Machine Learning (Random Forest Classifier)
+
+Project Objective
+The goal of this project is to predict whether a loan application will be approved based on applicant details such as income, credit history, employment status, and more. The model used for this prediction is Random Forest Classifier.
+
+This project is divided into two parts:
+
+L_P_M-Base.py — Training the model on historical data.
+prediction status.py — Taking manual input and using the model to predict loan approval.
+Internship Context
+This project was completed as part of the ShadowFox Virtual Internship Program under the AIML (Artificial Intelligence and Machine Learning) track. It is one of the intermediate-level tasks designed to help interns understand real-world applications of machine learning, especially in predictive modeling and classification problems.
+
+The task specifically focuses on using ML to build a loan prediction system, which helps banks or financial institutions decide whether a loan should be approved for an applicant or not.
+
+How the Project Works
+1. L_P_M-Base.py
+This script:
+
+Loads the dataset (loan_prediction.csv)
+Handles missing values
+Encodes categorical columns (like Gender, Married, etc.) into numbers
+Trains a RandomForestClassifier on the data
+Saves the feature names into a file called trained_model_data.py
+This file prepares everything needed for manual prediction later.
+
+2. prediction status.py
+This script:
+
+Loads the dataset again
+Cleans and encodes it just like the training script
+Re-trains the same model on the full dataset (for simplicity)
+Takes input from the user via the terminal (like gender, income, loan amount, etc.)
+Formats the input to match training data format
+Predicts whether the loan will be approved or not
+How to Run the Code
+Step 1: Train the model
+Run the L_P_M-Base.py file in your terminal:
+
+Python L_P_M-Base.py
+
+Step 2: Make a prediction
+Run the prediction status.py file in your terminal:
+
+python prediction status.py
+
+You will be asked to enter details manually in the terminal. Based on your input, the model will give you a prediction.
+
+Dataset
+The dataset loan_prediction.csv should be placed in the same folder as the two .py files. It includes:
+
+Gender
+Marital Status
+Number of Dependents
+Education
+Employment Status
+Applicant Income
+Coapplicant Income
+Loan Amount and Term
+Credit History
+Property Area
+Tools Used
+Python
+pandas
+scikit-learn
+Project Outcome
+You’ll have a simple command-line tool where users can enter loan application details and receive a prediction result about loan approval.
+
+This project is designed to help beginners understand the full machine learning workflow: from data preprocessing and model training to manual prediction.
+
+Credits
+Developed by Krish Choudhary Under the ShadowFox AIML Internship Program Connect on www.linkedin.com/in/krish-choudhary-55b9a030b | #ShadowFoxIntern | #AIML | #ClassificationModel |#RandomForestClassifierModel
+
